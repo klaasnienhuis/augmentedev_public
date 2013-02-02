@@ -11,14 +11,14 @@ Check out this blog-article by Klaas Nienhuis on the process. It uses another sc
 When you first run the script, it will ask you to enter an API key. You can click on the link in the dialog to go to your account page. After entering your API key, the script will remember it and won't bother you again. The API key is the key to your account. 
 ##Overview
 Open the script in 3dsMax 2012 or 2013, enter a title in the script interface, select the models you want to publish and press the big red button "Make an export for Augment". The script will now perform some actions for you:
-*save the selected objects to a new file
-*open the new file
-*add a light (sun and sky) and a camera matching your renderengine (scanline, mentalray and vray supported)
-*unwrap the objects
-*lightbake the objects
-*make a screengrab with the baked textures
-*export the objects
-*send the exported file with the textures, screengrab and the data from the script to Augment
+* save the selected objects to a new file
+* open the new file
+* add a light (sun and sky) and a camera matching your renderengine (scanline, mentalray and vray supported)
+* unwrap the objects
+* lightbake the objects
+* make a screengrab with the baked textures
+* export the objects
+* send the exported file with the textures, screengrab and the data from the script to Augment
 
 It will show progressbars and messages and the interface will be unresponsive as some of the tasks involve setting up the viewports and object selections.
 When uploading has finished, the script shows a popup with a weblink to the model you can share and a QR-code you can scan with the augment-app to view the model. You need to have the printed marker to view the model on your device.
